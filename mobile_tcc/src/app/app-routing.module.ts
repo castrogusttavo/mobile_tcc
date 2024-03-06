@@ -10,7 +10,11 @@ const routes: Routes = [
     path: '',
     redirectTo: 'home',
     pathMatch: 'full'
+  },  {
+    path: 'tema-tcc',
+    loadChildren: () => import('./tema-tcc/tema-tcc.module').then( m => m.TemaTccPageModule)
   },
+
 ];
 
 @NgModule({
