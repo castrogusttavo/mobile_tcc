@@ -10,10 +10,28 @@ const routes: Routes = [
     path: '',
     redirectTo: 'home',
     pathMatch: 'full'
-  },  {
+  },
+  {
     path: 'tema-tcc',
     loadChildren: () => import('./tema-tcc/tema-tcc.module').then( m => m.TemaTccPageModule)
   },
+  {
+    path: 'objetivos',
+    loadChildren: () => import('./objetivos/objetivos.module').then( m => m.ObjetivosPageModule)
+  },
+  {
+    path: 'integrantes',
+    loadChildren: () => import('./integrantes/integrantes.module').then( m => m.IntegrantesPageModule)
+  },
+  {
+    path: 'agradecimento',
+    loadChildren: () => import('./agradecimento/agradecimento.module').then( m => m.AgradecimentoPageModule)
+  },
+  {
+    path: 'tecnologias',
+    loadChildren: () => import('./tecnologias/tecnologias.module').then( m => m.TecnologiasPageModule)
+  },
+
 
 ];
 
