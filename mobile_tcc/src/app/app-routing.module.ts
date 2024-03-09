@@ -12,10 +12,6 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
-    path: 'tema-tcc',
-    loadChildren: () => import('./tema-tcc/tema-tcc.module').then( m => m.TemaTccPageModule)
-  },
-  {
     path: 'objetivos',
     loadChildren: () => import('./objetivos/objetivos.module').then( m => m.ObjetivosPageModule)
   },
@@ -31,6 +27,11 @@ const routes: Routes = [
     path: 'tecnologias',
     loadChildren: () => import('./tecnologias/tecnologias.module').then( m => m.TecnologiasPageModule)
   },
+  {
+    path: 'tema',
+    loadChildren: () => import('./tema/tema.module').then( m => m.TemaPageModule)
+  },
+
 
 
 ];

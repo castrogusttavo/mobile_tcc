@@ -4,17 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { TemaTccPageRoutingModule } from './tema-tcc-routing.module';
+import { TemaPageRoutingModule } from './tema-routing.module';
 
-import { TemaTccPage } from './tema-tcc.page';
+import { TemaPage } from './tema.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    TemaTccPageRoutingModule
+    TemaPageRoutingModule
   ],
-  declarations: [TemaTccPage]
+  declarations: [TemaPage]
 })
-export class TemaTccPageModule {}
+export class TemaPageModule {}

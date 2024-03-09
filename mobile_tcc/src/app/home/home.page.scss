@@ -6,6 +6,8 @@
   right: 0;
   top: 50%;
   transform: translateY(-50%);
+
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 #container strong {
@@ -25,3 +27,14 @@
 #container a {
   text-decoration: none;
 }
+
+.background-image {
+  --background: url('../../assets/techs/background.png') no-repeat center center fixed;
+}
+
+.header-color {
+  --background: #006EFF;
+  --color: #ffffff; 
+}
+
+

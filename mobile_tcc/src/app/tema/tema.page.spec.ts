@@ -1,12 +1,12 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { TemaTccPage } from './tema-tcc.page';
+import { TemaPage } from './tema.page';
 
-describe('TemaTccPage', () => {
-  let component: TemaTccPage;
-  let fixture: ComponentFixture<TemaTccPage>;
+describe('TemaPage', () => {
+  let component: TemaPage;
+  let fixture: ComponentFixture<TemaPage>;
 
   beforeEach(async(() => {
-    fixture = TestBed.createComponent(TemaTccPage);
+    fixture = TestBed.createComponent(TemaPage);
     component = fixture.componentInstance;
     fixture.detectChanges();
   }));

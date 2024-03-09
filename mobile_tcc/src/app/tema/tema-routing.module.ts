@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { TemaTccPage } from './tema-tcc.page';
+import { TemaPage } from './tema.page';
 
 const routes: Routes = [
   {
     path: '',
-    component: TemaTccPage
+    component: TemaPage
   }
 ];
 
@@ -14,4 +14,4 @@ const routes: Routes = [
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule],
 })
-export class TemaTccPageRoutingModule {}
+export class TemaPageRoutingModule {}

@@ -1,0 +1,21 @@
+.background-image {
+    --background: url('../../assets/techs/background.png') no-repeat center center fixed;
+}
+
+img{
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.header-color {
+    --background: #006EFF;
+    --color: #ffffff; 
+}
+
+ion-card-header ion-card-title{ 
+    text-align: center;
+    font-size: 24px;
+}
+
+ion-card-content p{
+    font-size: 16px;
+}
